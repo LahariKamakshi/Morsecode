@@ -15,12 +15,8 @@ This requires a buffer to store the signal, so that loop can consume the signal,
 
 **Classes in Decoder program:**
 I have used classes exhaustively during my project to improve maintenance of code and re-usability.
-
-•	AdaptiveLogicLevelProcessor is responsible for dynamically adjusting logic level.
-
-•	MorseCodeElementProcessor is responsible for detecting individual Morse code signal.
-
-•	MorseCodeProcessor is responsible for decoding Morse.
-
-•	MorseCodeBuffer is responsible for buffering Morse code so that interrupt routine can share the code to loop.
+>•	AdaptiveLogicLevelProcessor is responsible for dynamically adjusting logic level.
+>•	MorseCodeElementProcessor is responsible for detecting individual Morse code signal.
+>•	MorseCodeProcessor is responsible for decoding Morse.
+>•	MorseCodeBuffer is responsible for buffering Morse code so that interrupt routine can share the code to loop.
 
