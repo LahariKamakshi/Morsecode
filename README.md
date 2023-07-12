@@ -1,5 +1,6 @@
 ## Encryption and decryption of morse code using a flash light
 **About this project:**
+
 **Decoder components:**
 For decoder, we need a photo resistor (LDR) and 1K ohm resistor to make voltage divider. The analog input A0 is used to read the voltage level.
 
